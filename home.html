@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewsHub-Home</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <header>
+        <div class="left-things">
+            <h2>News<span>hub</span></h2>
+        </div>
+    </header>
+    <p style="background-color: white; font-size: .5px;"></p>
+    <div class="nav-container">
+            <ul class="nav" style="width: 100%;">
+                <li class="item"><a href="#">Home</a></li>
+                <li class="item"><a href="#">World</a></li>
+                <li class="item"><a href="#">Politics</a></li>
+                <li class="item"><a href="#">Sports</a></li>
+                <li class="item"><a href="#">Business</a></li>
+                <li class="item"><a href="#">Health</a></li> 
+                <li class="item"><a href="#">Travel</a></li>
+                <li class="item"><a href="#">About Us</a></li>
+                <li class="item"><a href="./index.html">Sign In</a></li>
+            </ul>
+    </div>
+    <div class="Welcome">
+    <h1>Welcome to NewsHub.com<span class="header" style="color:#8c8c8c;"></span></h1>
+    </div>
+    <div class="top-news">
+        <div class="big-one items">
+            <a href="https://www.bbc.com/news/live/world-middle-east-67037895"><p style="padding: 5px;color: white; padding-top: 43%; font-size: 32px;margin-bottom:0px;;">Russian Airstrike kills 51 at a funeral in Ukraine</p>
+            <!-- <a href="#" style="color: white;">Are you ready</a> -->
+            <p style="color: white;margin-top: 0px;font-weight:400 ;">More than a 100 Israelis killed and 100 kidnapped in attacks on Gaza</p>
+            </a></div>
+        <div class="small items one">
+            <a href="https://www.aljazeera.com/news/2023/10/10/car-rams-into-chinese-consulate-in-san-francisco-police-shoot-driver-dead">
+            <p style="color: white;font-size:1.125rem; font-weight:bold;padding-top: 35%; padding-left: 5px;">Car rams into Chinese consulate in San Francisco; police shoot driver dead</p>
+            <!-- <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/12C60/production/_130969867_fb105bc5-575f-43f8-8030-6974d5f72164.jpg.webp"> -->
+        </a></div>
+        <div class="small items two">
+            <a href="https://www.bbc.com/worklife/article/20231005-financial-anxiety-the-alarming-side-effect-of-inflation">
+            <p style="color: white;font-size:1.125rem; font-weight:bold;padding-top: 40%; padding-left: 5px; padding-bottom: 2px;">The alarming side-effect of inflation</p>
+        </a></div>
+        <div class="small items three"><a href="https://www.bbc.com/news/67033249">
+            <p style="color: white;font-size:1.125rem; font-weight:bold;padding-top: 35%;">Biden cannot escape Trump's shadow in border crisis</p>
+        </a></div>
+        <div class="small items four">
+            <a href="https://www.bbc.com/future/article/20231009-the-robot-aircraft-with-a-nightmarish-nuclear-mission">
+            <p style="color: white;font-size:1.125rem; font-weight:bold;padding-top: 35%;">The robot aircraft with a nightmarish nuclear mission</p>
+        </a></div>
+    </div>
+    <div class="World-News">
+        <div class="newsone">
+            <a href="demo.html">
+                <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/D9B8/production/_125863755_yy1200-sas-death-squads-exposed_-a-british-war-crime_7.jpg.webp" width="100%">
+                <h3>Senior Officers hid SAS killings, inquiry hears</h3>
+                <p>Senior UK special forces officers had suspicions of a "deliberate policy" of murder by the SAS in Afghanistan but hid evidence, an inquiry heard.</p>
+            </a>
+        </div>
+        <div class="newstwo">
+            <a href="demo.html">
+                <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/D9B8/production/_125863755_yy1200-sas-death-squads-exposed_-a-british-war-crime_7.jpg.webp" width="100%">
+                <h3>Senior Officers hid SAS killings, inquiry hears</h3>
+                <p>Senior UK special forces officers had suspicions of a "deliberate policy" of murder by the SAS in Afghanistan but hid evidence, an inquiry heard.</p>
+                </a>
+        </div>
+        <div class="newsthree">
+            <a href="demo.html">
+                <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/D9B8/production/_125863755_yy1200-sas-death-squads-exposed_-a-british-war-crime_7.jpg.webp" width="100%">
+                <h3>Senior Officers hid SAS killings, inquiry hears</h3>
+                <p>Senior UK special forces officers had suspicions of a "deliberate policy" of murder by the SAS in Afghanistan but hid evidence, an inquiry heard.</p>
+            </a>
+        </div>
+    </div>
+    <footer >
+        <h2 style="text-align: justify; margin-left:10%;">Explore Ashhad's NewsHub</h2>
+
+        <p>Contact Us At: ashhad.sayed007@gmail.com</p>
+        <p>&copy; 2023 My News Website</p>
+        
+    </footer>
+    <script type="text/javascript">
+        var date=document.querySelector(".header");
+        var datetoday=new Date();
+        var today=datetoday.getDate()+"/"+(datetoday.getMonth()+1)+"/"+datetoday.getFullYear();
+        date.innerHTML=today;
+        var scrollEventHandler = function()
+    {
+        window.scroll(0, window.pageYOffset)
+    }
+    window.addEventListener("scroll", scrollEventHandler, false);
+    </script>
+</body>
+</html>
