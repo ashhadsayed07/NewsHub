@@ -1,6 +1,11 @@
 body{
-    background-color: black;
+    /* background-color: black; */
+    background: black;
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url("registerback.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .full-container{
     background-color: black;
@@ -70,4 +75,16 @@ span{
 .DOB > input{
     width: 30%;
     margin-left:-10px;
+}
+@media(max-width:1000px){
+    .full-container{
+        width: 100%;
+    }
+    .Login{
+        gap:20px;
+    }
+    body{
+        background: none;
+        background-color: black;
+    }
 }
