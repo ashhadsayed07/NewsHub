@@ -1,0 +1,150 @@
+
+body {
+    background-color: antiquewhite;
+
+    margin: 10px;
+  }
+  
+  #header {
+    background-color: black;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1rem;
+    text-align: center;
+    position: sticky;
+    top: 0;
+  }
+  
+  .info {
+    height: 20px;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration:none;
+    color: aliceblue;
+    margin-right: 30px;
+  }
+  
+  .grid {
+    background-color: #FAF8F1;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    #header {
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+    }
+    
+    .info {
+      margin-right: 10px;
+    }
+    
+    .grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    #header {
+      padding-top: 0.3rem;
+      padding-bottom: 0.3rem;
+    }
+    
+    .info {
+      margin-right: 5px;
+      font-size: 0.8rem;
+    }
+    
+    .grid {
+      grid-template-columns: 1fr;
+    }
+  }
+   #elon{
+    background-image: url("https://akm-img-a-in.tosshub.com/businesstoday/images/story/202307/elon_musk_and_the_new_logo_x_0-sixteen_nine.jpg?size=948:533/");  
+    background-size: cover;
+    grid-row:span 4;
+    grid-column: span 2;
+    border-radius: 10px;
+}
+
+#kanye{
+    background-image: url(https://fashionbombdaily.com/wp-content/uploads/2023/03/FBD-Covers-4-1.png);
+    background-size:cover;
+    border-radius: 10px;
+}
+
+#trump{
+    background-image: url(https://i.abcnewsfe.com/a/1f219643-41d9-486c-9972-9ecc20b85cb3/trump-03-gty-jt-230927_1695864724502_hpMain_16x9.jpg?w=992);
+   background-size:contain;
+   background-repeat: no-repeat;
+   background-size: cover;
+   border-radius: 10px;
+   
+
+}
+
+#israel{ 
+    background-image:url(https://c.files.bbci.co.uk/B5DF/production/_131395564_gaza-gettyimages-1719093486.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    grid-row: span 4;
+}
+
+#vermont{
+    background-image:url(https://ychef.files.bbci.co.uk/1665x965/p0gkxrp5.webp);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    grid-row: span 4;
+
+} 
+
+
+ #elon > a,
+ #kanye > a,
+ #trump > a,
+ #israel > a,
+ #vermont > a {
+   display: flex;
+   opacity:1;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   flex-direction: column;
+   justify-content: flex-end;
+   align-items: center;
+   height: 100%;
+   color: #FFFFFF;
+   text-decoration: none;
+   padding-bottom: 30px; 
+   font-size: 1.5789rem;
+   font-weight:900; 
+ } 
+
+ 
+
+#kanye >a{
+    color:black;
+}
+.everything{
+    width: 95%;
+    margin-left: 20px;
+}
+
+.toplogo 
+{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+  
+  .toplogo img 
+{
+    display: block;
+    margin: 0 auto;
+}
+  
