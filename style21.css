@@ -82,12 +82,8 @@ a{
     background-image: url('https://ichef.bbci.co.uk/news/976/cpsprodpb/AFE0/production/_131342054_d7823ee07c936b912e41fefb8e6d5dfda1e8447a0_0_3809_21421000x563.jpg.webp');
     grid-row:span 2;
     grid-column: span 1;
-    padding: 5px;
     /* font-weight: 540; */
-   
-}
-.items > img{
-    width: 100%;
+    position:relative;
 }
 .small{
     grid:span 1;
@@ -124,7 +120,7 @@ a:hover{
 
 .World-News h3{
     margin-top:0px;
-    font-weight: bolder;
+    font-weight: bold;
 }
 .World-News p{
     margin-top:-5px;
