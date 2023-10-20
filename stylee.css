@@ -211,4 +211,7 @@ body {
     width:40vh;
 }
 
-
+#welcome p{
+  margin-left: 0px;
+  padding-left: 0px;
+}
